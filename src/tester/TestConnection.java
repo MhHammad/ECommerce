@@ -6,7 +6,7 @@ public class TestConnection {
 
 	public static void main(String[] args) {
 		try(Connection cn=openConnection())
-		{
+		{System.out.println("Hello This is Deepali");
 			System.out.println("Connected to DB "+cn);//imple class instance : MySql specific cn 
 		}catch (Exception e) {
 			e.printStackTrace();
