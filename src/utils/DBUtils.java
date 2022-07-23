@@ -5,6 +5,7 @@ public class DBUtils {
 	//add a static method to return FIXED DB connection
 	public static Connection openConnection() throws SQLException
 	{
+		System.out.println("this is to check branching in main");
 		String url = "jdbc:mysql://localhost:3306/dac22?useSSL=false&allowPublicKeyRetrieval=true";
 
 		//get cn from DriverManager : class
